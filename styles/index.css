@@ -1,0 +1,97 @@
+body{
+    margin: 24px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Color__container-one{
+    display: flex;
+}
+
+.First__part{
+    position: relative;
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: 448px 448px;
+    grid-template-rows: 195px 195px ;
+}
+
+.First{
+    background: #007F5F;
+}
+.Second{
+    background: #80B918;
+    height: 414px;
+}
+
+.Third{
+    background: #2B9348;
+}
+
+.Color__container-Two{
+    display: flex;
+}
+
+.Second__part{
+    position: relative;
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: 448px ;
+    grid-template-rows: 122px 122px 122px;
+    margin-left: 24px;
+}
+
+.Forth{
+    background: #DDDF00;
+}
+.Fifth{
+    background: #EEEF20;
+}
+.Six{
+    background: #EEEF20;
+}
+
+.part-one{
+    position: relative;
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: 448px 212px;
+    grid-template-rows: 122px 122px ;
+    margin-top: 24px;  
+}
+
+.Seven{
+    background: #AACC00;
+
+}
+ .Eight{
+     background: #BFD200;
+ }
+.nine{
+    background: #55A630;
+    grid-row: 1/3;
+}
+
+.part-two{
+    position: relative;
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: 448px 212px;
+    grid-template-rows: 268px 268px ;
+    margin-top: 24px; 
+    margin-left: 24px; 
+}
+.ten{
+    background: #BFD200;
+}
+
+.eleven{
+    background: #007F5F;
+
+}
