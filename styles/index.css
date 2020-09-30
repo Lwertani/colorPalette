@@ -1,5 +1,5 @@
 body{
-    margin: 24px;
+    margin: none;
 }
 
 main{
@@ -9,89 +9,92 @@ main{
     justify-content: center;
     align-items: center;
 }
-
-.Color__container-one{
-    display: flex;
+h1{
+    margin-block-end: none;
+    margin-block-start: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    line-height: 79px;
+    margin: 24px;
 }
 
-.First__part{
-    position: relative;
+.Color__container{
     display: grid;
-    grid-gap: 24px;
-    grid-template-columns: 448px 448px;
-    grid-template-rows: 195px 195px ;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
 }
+
 
 .First{
     background: #007F5F;
+    grid-row: 1/ 4;
+    grid-column: 1/ 3;
 }
 .Second{
-    background: #80B918;
-    height: 414px;
+    background: #2B9348;
+    grid-row: 4/ 7;
+    grid-column: 1/ 3;
 }
 
 .Third{
-    background: #2B9348;
-}
-
-.Color__container-Two{
-    display: flex;
-}
-
-.Second__part{
-    position: relative;
-    display: grid;
-    grid-gap: 24px;
-    grid-template-columns: 448px ;
-    grid-template-rows: 122px 122px 122px;
-    margin-left: 24px;
+    background: #55A630;
+    grid-row: 7/ 11;
+    grid-column: 1/ 3;
 }
 
 .Forth{
-    background: #DDDF00;
+    background: #80B918;
+    grid-row: 1/ 7;
+    grid-column: 3/ 5;
 }
 .Fifth{
-    background: #EEEF20;
+    background: #AACC00;
+    grid-row: 7/ 9;
+    grid-column: 3/ 4;
 }
 .Six{
-    background: #EEEF20;
-}
+    background: #BFD200;
+    grid-row: 9/ 11;
+    grid-column: 3/ 4;
 
-.part-one{
-    position: relative;
-    display: grid;
-    grid-gap: 24px;
-    grid-template-columns: 448px 212px;
-    grid-template-rows: 122px 122px ;
-    margin-top: 24px;  
 }
 
 .Seven{
-    background: #AACC00;
-
+    background: #D4D700;
+    grid-row: 7/ 11;
+    grid-column: 4/ 6;
 }
  .Eight{
-     background: #BFD200;
+     background: #007F5F;
+     grid-row: 7/ 11;
+     grid-column: 6/ 7;
  }
 .nine{
-    background: #55A630;
-    grid-row: 1/3;
+    background: #DDDF00;
+    grid-row: 1/ 3;
+    grid-column: 5/ 7;
 }
 
-.part-two{
-    position: relative;
-    display: grid;
-    grid-gap: 24px;
-    grid-template-columns: 448px 212px;
-    grid-template-rows: 268px 268px ;
-    margin-top: 24px; 
-    margin-left: 24px; 
-}
+
 .ten{
-    background: #BFD200;
+    background: #EEEF20;
+    grid-row: 3/ 5;
+    grid-column: 5/ 7;
 }
 
 .eleven{
-    background: #007F5F;
+    background: #FFFF3F;
+    grid-row: 5/ 7;
+    grid-column: 5/ 7;
+
+}
+
+.Color__container--bottom{
+    grid-row: 11/ 13;
+    grid-column: 1/ 7;
+    background: #9BC1BC;
 
 }
